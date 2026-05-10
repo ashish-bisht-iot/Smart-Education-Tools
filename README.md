@@ -1,4 +1,4 @@
-# 🎓 Smart Education Tools
+🎓 Smart Education Tools
 
 A full-stack educational web platform built with **Python (Flask)**, **SQLite**, and **Vanilla JavaScript** — providing separate role-based portals for students and teachers.
 
