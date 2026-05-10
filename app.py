@@ -147,7 +147,7 @@ def logout():
     return redirect(url_for('login'))
 
 
-# ── API: Login ──────────────────────────────────────────
+# ── API: Login
 @app.route('/api/login', methods=['POST'])
 def api_login():
     data  = request.get_json()
