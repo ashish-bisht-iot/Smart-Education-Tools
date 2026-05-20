@@ -66,64 +66,6 @@ smart-education-tools/
     └── student_records.html     # Student registry
 ```
 
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/smart-education-tools.git
-cd smart-education-tools
-```
-
-### 2. Create a virtual environment
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-```bash
-python app.py
-```
-
-### 5. Open in browser
-```
-http://localhost:5000
-```
-
-The database (`eduboard.db`) is created automatically on first run.
-
----
-
-## 📦 Requirements
-
-Create a `requirements.txt` with:
-
-```
-flask
-flask-sqlalchemy
-werkzeug
-requests
-```
-
-Or generate it automatically:
-```bash
-pip freeze > requirements.txt
-```
-
----
-
 ## 🔑 Usage
 
 ### Creating a Student Account
