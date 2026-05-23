@@ -125,13 +125,6 @@ smart-education-tools/
 6. Click **Deploy**
 
 > **Note:** SQLite is file-based and resets on Render's free tier. For persistent data, switch to **Render PostgreSQL** (free) by updating the `SQLALCHEMY_DATABASE_URI` in `app.py`.
-
-### Deploy on PythonAnywhere (Always-on Free)
-1. Sign up at [pythonanywhere.com](https://pythonanywhere.com)
-2. Upload your project files
-3. Create a new web app → select Flask → point to `app.py`
-4. Install requirements in the bash console
-
 ---
 
 ## 🔒 Security Notes
